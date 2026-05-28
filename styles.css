@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+#game-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(175, 4, 4);
+    border: 1px solid #ccc;
+}
+
+#answers {
+    list-style: none;
+    padding: 0;
+}
+
+#answers li {
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    
+}
+button:hover {
+    color: brown;
+
+}
+h1 {
+    background-color: #f4f4f4;
+}
+
+#question {
+    color: #f4f4f4;
+}
