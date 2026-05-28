@@ -11,6 +11,10 @@ function addAnswerButton(text, nextState) {
     const li = document.createElement("li");
     const button = document.createElement("button");
     button.textContent = text;
+    button.addEventListener("click",()=>){
+        currentState = nextState;
+        renderQuestion();
+    }
     li.appendChild(button);
     answers.appendChild(li);
 }
